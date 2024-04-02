@@ -26,8 +26,8 @@ prediction = model.predict([[sepal_length,sepal_width,petal_length,petal_width]]
 if st.button("Predict"):
    st.subheader("Your Prediction")
    if prediction == 0:
-      st.image("IRIS/setosa.png",width=300)
+      st.image("setosa.png",width=300)
    elif prediction == 1:
-      st.image("IRIS/Versicolor.png",width=300)
+      st.image("Versicolor.png",width=300)
    else:
-      st.image("IRIS/Vriginica.png",width=300)
+      st.image("Vriginica.png",width=300)
